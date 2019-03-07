@@ -3,8 +3,8 @@
 This is a repository for a dashboard on military, education, and health care spending by G-20 countries.
 
 ### HTML documents
-index.html \r\n
-data_sources.html \r\n
+index.html, 
+data_sources.html, 
 biography.html
 
 ### CSS document
