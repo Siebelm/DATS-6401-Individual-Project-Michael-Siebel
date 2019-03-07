@@ -1,9 +1,12 @@
+/* ****************
+   General settings
+******************* */
 html {
 	height: 100%;
 }
 
 h1, h2 {
-	font: normal 175% 'franklin gothic', 'segoe ui', sans-serif;
+	font: normal 175% 'franklin gothic book', 'segoe ui', sans-serif;
 	display: block;
 	color: rgb(51,91,116);
 	font-size: 2em;
@@ -16,10 +19,8 @@ h2 {
 	font-size: 1.5em 
 }
 
- 
 body {
 	font: normal .78em 'gill sans', sans-serif;
-	color: rgb(38,38,38);
 }
 
 p {
@@ -58,7 +59,7 @@ p {
 .page-header {
 	margin-left: 170px;
 	height: 160px;
-	font: normal 175% 'franklin gothic', 'segoe ui', sans-serif;
+	font: normal 175% 'franklin gothic book', 'segoe ui', sans-serif;
 	color: #000000;
 	text-align: center;
 	overflow: hidden;
@@ -69,6 +70,9 @@ p {
 	float: left;
 }
 
+/* *************
+   Head Banner
+************** */
 * {box-sizing: border-box}
 
 .image {
@@ -127,13 +131,17 @@ p {
   z-index: 1;
 }
 
+/* *****************
+   Horizontal Menu
+****************** */
 #menubar {
-	height: 35px;
+	height: 38px;
 	padding: 8px 0 0 0;
-	margin: -40px 0 0 0;
+	margin: -38px 0 0 0;
 	position: relative;
 	z-index: 1;
 	float: right;
+	overflow: hidden;
 }
 
 ul#menu {
@@ -176,8 +184,6 @@ ul#menu li.selected {
 ul#menu li a:hover {
 	color: #777;
 }
-
-
 
 
 /* **************
@@ -237,6 +243,9 @@ ul#menu li a:hover {
 	margin-left: 170px;
 }
 
+/* *****************
+   Table of Contents
+******************** */
 #TOC {
 	border-radius: 4px;
 	padding: 15px;
@@ -249,7 +258,7 @@ ul#menu li a:hover {
 }
 
 a {
-	color: rgb(38,38,38); /* rgb(6,69,173) */
+	color: rgb(38,38,38); 
 }
 
 a:link {
@@ -268,13 +277,10 @@ a:active {
   text-decoration: underline;
 }
 
-#bio {
-	height: 120px;
-	width: 120px;
-	left: 45%;
-	position: relative;
-}
 
+/* ********
+   Photos
+********* */
 #wb {
 	height: 90px;
 	width: 130px;
@@ -288,6 +294,22 @@ a:active {
 	left: 45%;
 	position: relative;
 }
+
+#gwu {
+	height: 120px;
+	width: 145px;
+	left: 45%;
+	position: relative;
+	display: block;
+}
+
+#bio {
+	height: 120px;
+	width: 120px;
+	left: 45%;
+	position: relative;
+}
+
 
 /* *********
    Buttons
@@ -334,5 +356,3 @@ div.visible {
 #top:hover {
 	background-color: #555;
 }
-
-

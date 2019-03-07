@@ -7,7 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="style.css" />
 
+	<!-- page-header -->
 	<section class="page-header">
+	<!-- banner -->
 	<div id="banner">
 		<div id="banner1">
 			<img src="images/budget.jpg" alt="Budget" />
@@ -19,19 +21,21 @@
 		<div id="banner2underlay" >
 			<img src="images/banner2.png" alt="Blue" />
 		</div>	
-	</div>	
-	</section>
+	</div> <!-- banner -->
+	</section> <!-- page-header -->
 		
-	
+	<!-- sub-header -->
 	<section class="sub-header">
+		 <!-- menubar -->
 		<div id="menubar">
 		<ul id="menu">
 			<li class="selected"><a href="index.html">Home</a></li>
 			<li><a href="data_sources.html">Data Sources</a></li>
+			<li><a href="visualization_class.html">Course</a></li>
 			<li><a href="biography.html">Biography</a></li>
 		</ul>
-	</div><!-- menubar -->
-	</section>	
+	</div> <!-- menubar -->
+	</section> <!-- sub-header -->	
 	
 	
 	<!-- Javascript using Google Charts -->
@@ -1114,7 +1118,6 @@
 	}
 	}
 	
-
 	// GDP per Capita
 	function GDP_perCapita_Function() {
 	var c = document.getElementById("GDP_perCapita_div");
@@ -1154,7 +1157,6 @@
 		g.style.display = "none";
 	}
 	}
-	
 		
 	// Education Spending per GDP
 	function Edu_GDP_Function() {
@@ -1176,7 +1178,6 @@
 	}
 	}
 	
-		
 	// Health Care Spending per GDP
 	function Health_GDP_Function() {
 	var c = document.getElementById("Health_GDP_div");
@@ -1204,19 +1205,19 @@
 	}
 	
 	</script>
-</head>
+</head> <!-- head -->
 
 <!-- body -->
 <body>
-	<div id="site_content">
-		<div id="leftbar" class="leftbar">
+	<div id="site_content"> <!-- site_content -->
+	
+		<div id="leftbar" class="leftbar"> <!-- leftbar -->
 			<!-- insert leftbar items here -->
 			<h3>G-20 Countries <br> External Links</h3>
 		
 			<a href="https://www.cia.gov/library/publications/the-world-factbook/geos/ar.html"
 			target="_blank" >
-				<img src="images/Slide1.png" alt="Argentina" 
-				 />
+				<img src="images/Slide1.png" alt="Argentina" />
 			</a></br>
 			<a href="https://www.cia.gov/library/publications/the-world-factbook/geos/as.html"
 			target="_blank" >
@@ -1290,7 +1291,7 @@
 			target="_blank" >
 				<img src="images/Slide20.png" alt="United_States" />
 			</a><br>
-		</div><!-- leftbar -->	
+		</div> <!-- leftbar -->	
 	
 	
 	<div id="content">
@@ -1313,6 +1314,7 @@
 		Development (OECD). &nbsp;External links to the 
 		CIA World Fact are the left-hand side for further information 
 		on each of the 19 countries.</p>
+		
 		<!-- Table of Contents -->
 		<h1>Table of Contents</h1>
 		<div id="TOC" class="toc">
@@ -1363,7 +1365,6 @@
 			</div>	 
 		<div id="Military_Geo_div" class="hidden">
 			</div>	
-	
 		<p>In total military spending, the United States dramatically stands out as the
 		highest spender. &nbsp;However, China, the second largest spender, is been growing its military spending
 		at a faster rate.
@@ -1384,7 +1385,6 @@
 			</div>	 
 		<div id="Edu_Geo_div" class="hidden">
 			</div>	
-	
 		<p>The United States and India appear to be increasing spending in education. &nbsp;However,
 		this increase is relatively modest. &nbsp;For all other countries, education spending appears
 		to not be varying greatly over time. &nbsp;Total spending on education is not very meaningful, 
@@ -1406,7 +1406,6 @@
 			</div>	 
 		<div id="Health_Geo_div" class="hidden">
 			</div>			 
-	
 		<p>The United States and China have largely been increasing their
 		health care spending. &nbsp;Other countries have had stable spending. &nbsp;
 		Like education, spending on health care is only as meaningful as how much is allocated 
@@ -1540,7 +1539,6 @@
 			</div>	 
 		<div id="Military_GDP_Geo_div" class="hidden">
 			</div>		 
-	
 		<p>United States spent the most on its military relative to its economic size
 		until 2013, after which Saudi Arabia became the largest spender on its military
 		relative to its economy.
@@ -1570,7 +1568,6 @@
 		but it is not dramatically different other countries. &nbsp;There is little
 		change in spending over the past 10 years (2008-2017) among G-20 countries.
 		&nbsp;The range averages only 3.37% to 6.07% between 2011 and 2015.
-		<br></br>
 		</p>		
 		
 		<!-- Health per GDP -->
@@ -1611,9 +1608,9 @@
 		less than health care and education spending.
 		</p>		
 		
-		</div><!-- content -->
+		</div> <!-- content -->
 	</div><!-- site_Content -->	
-</body>
+</body> <!-- body -->
 
 
 </html>
