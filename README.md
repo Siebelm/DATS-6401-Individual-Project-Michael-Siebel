@@ -5,6 +5,7 @@ This is a repository for a dashboard on military, education, and health care spe
 ### HTML documents
 index.html, 
 data_sources.html, 
+visualization_class.html, 
 biography.html
 
 ### CSS document
